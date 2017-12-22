@@ -1,0 +1,33 @@
+{
+  "name": "leaguets",
+  "version": "1.0.0",
+  "description": "typescript module for accessing riot api",
+  "main": "LeagueTS.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinNicholls/LeagueTS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustinNicholls/LeagueTS/issues"
+  },
+  "homepage": "https://github.com/JustinNicholls/LeagueTS#readme",
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "@types/request": "^2.0.9",
+    "@types/request-promise-native": "^1.0.10",
+    "chalk": "^2.3.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.3",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
