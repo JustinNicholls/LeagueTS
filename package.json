@@ -4,7 +4,9 @@
   "description": "typescript module for accessing riot api",
   "main": "LeagueTS.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,8 @@
   },
   "dependencies": {
     "request": "^2.83.0",
-    "request-promise-native": "^1.0.5"
-  }
+    "request-promise-native": "^1.0.5",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
